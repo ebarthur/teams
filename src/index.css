@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hero {
+  background-image: url("./assets/convenient-banking-home.webp");
+  background-size: cover;
+}
+
+.cal {
+  background-image: url("./assets/base-mega.webp");
+  background-size: cover;
+}
+.calbank {
+  background-image: url("./assets/base-mega.webp");
+  background-size: cover;
+}
